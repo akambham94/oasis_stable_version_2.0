@@ -1,0 +1,16 @@
+2018-11-27 01:36:30,269:DEBUG:__main__:Config File Found
+2018-11-27 01:36:30,279:DEBUG:__main__:Config File Read
+2018-11-27 01:36:30,279:DEBUG:__main__:Grow Initiated
+2018-11-27 01:36:30,288:INFO:__main__:Fetching the schedule data for week0
+2018-11-27 01:36:30,290:DEBUG:__main__:Read config file
+2018-11-27 01:36:30,291:DEBUG:__main__:Global states declared
+2018-11-27 01:36:30,291:DEBUG:__main__:Config file scheduler created
+2018-11-27 01:36:30,292:DEBUG:__main__:LED task created
+2018-11-27 01:36:30,292:DEBUG:__main__:Fan scheduler created
+2018-11-27 01:36:30,293:DEBUG:__main__:Mixing pump task created
+2018-11-27 01:36:30,293:DEBUG:__main__:Pouring pump task created
+2018-11-27 01:36:30,294:DEBUG:__main__:data acquisition and image capture created
+2018-11-27 01:36:30,294:DEBUG:__main__:Data sending to AWS scheduled
+2018-11-27 01:36:30,295:DEBUG:__main__:Image sending to S3 scheduled
+2018-11-27 01:36:30,295:DEBUG:__main__:[Every 1 day at 01:37:00 do execute_once() (last run: [never], next run: 2018-11-27 01:37:00), Every 1.0 day do light_on() (last run: [never], next run: 2018-11-28 01:36:30), Every 1.0 hour do fan_on() (last run: [never], next run: 2018-11-27 02:36:30), Every 1 hour do pump_mixing_on() (last run: [never], next run: 2018-11-27 02:36:30), Every 24 hours do pump_pouring_on() (last run: [never], next run: 2018-11-28 01:36:30), Every 60 minutes do get_camera_data() (last run: [never], next run: 2018-11-27 02:36:30), Every 1.0 minute do data_acquisition_job() (last run: [never], next run: 2018-11-27 01:37:30), Every 1.0 minute do send_data_to_aws() (last run: [never], next run: 2018-11-27 01:37:30), Every 1.0 hour do send_camera_data() (last run: [never], next run: 2018-11-27 02:36:30)]
+2018-11-27 01:36:30,296:DEBUG:__main__:Config file scheduler started

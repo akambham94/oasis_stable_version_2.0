@@ -1,0 +1,27 @@
+from configparser import ConfigParser
+
+class State:
+    def __init__(self):
+        parser = ConfigParser()
+        parser.read('config_files/status.conf')
+        self.LED_status = parser.get('status', 'led_status')
+        self.FAN_status = parser.get('status', 'fan_status')
+        self.Pump_Mix_status = parser.get('status', 'pump_mix_status')
+        self.Pump_Pour_status = parser.get('status', 'pump_pour_status')
+        self.frame_no = parser.get('status', 'frame_no')
+        self.Current_Mode = parser.get('status', 'current_mode')
+        self.activated = parser.get('status', 'activated')
+        self.initiate_grow_flag = parser.get('status', 'initiate_grow_flag')
+        self.active_cc_tracker = parser.get('status', 'active_cc_tracker')
+        self.tempUL = parser.get('status', 'tempul')
+        self.tempLL = parser.get('status', 'templl')
+        self.humidityUL = parser.get('status', 'humidityul')
+        self.humidityLL = parser.get('status', 'humidityll')
+        self.phUL = parser.get('status', 'phul')
+        self.phLL = parser.get('status', 'phll')
+        self.ecUL = parser.get('status', 'ecul')
+        self.ecLL = parser.get('status', 'ecll')
+        self.waterlevelUL = parser.get('status', 'waterlevelul')
+        self.waterlevelLL = parser.get('status', 'waterlevelll')
+        self.ph_dosing_flag = parser.get('status', 'ph_dosing_flag')
+        self.water_change_flag = parser.get('status', 'water_change_flag')
